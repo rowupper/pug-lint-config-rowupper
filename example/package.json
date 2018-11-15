@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "lint": "pug-lint .",
+    "test": "npm run lint"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "pug-lint": "~2.5.0",
+    "pug-lint-config-rowupper": "file:../"
+  }
+}
